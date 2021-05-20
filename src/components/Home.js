@@ -19,11 +19,12 @@ const Container = styled.main`
     // adding a div before the container
     &:before {
         background: url("/images/home-background.png") center center / cover no-repeat fixed;
-        content: "Hello";
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
+        z-index: -1;
     }
 `
